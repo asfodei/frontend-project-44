@@ -5,4 +5,4 @@ export const numbers = (min = 1, max = 100) => {
   return randomNumber;
 };
 
-export const gameEven = ()
+export 
