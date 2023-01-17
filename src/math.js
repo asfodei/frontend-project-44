@@ -1,8 +1,8 @@
 export const numbers = (min = 1, max = 100) => {
-  const minimul= Math.ceil(min);
-  const maximum= Math.floor(max);
-  const randomNumber= Math.floor(Math.random() * (maximum - minimul + 1)) + minimul; 
+  const mini= Math.ceil(min);
+  const maxi= Math.floor(max);
+  const randomNumber= Math.floor(Math.random() * (maxi- mini + 1)) + mini; 
   return randomNumber;
 };
 
-export 
+export
