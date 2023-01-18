@@ -9,3 +9,7 @@ publish:
 
 lint:
 		npx eslint .
+getting:
+		git add .
+		git commit -m .
+		git push
