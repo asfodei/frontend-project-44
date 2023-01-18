@@ -1,6 +1,12 @@
-export default numbers(min = 1, max = 100) => {
-  const mini= Math.ceil(min);
-  const maxi= Math.floor(max);
-  const randomNumber= Math.floor(Math.random() * (maxi- mini + 1)) + mini; 
+export const numbers = (min = 1, max = 100) => {
+  const mini = Math.ceil(min);
+  const maxi = Math.floor(max);
+  const randomNumber = Math.floor(Math.random() * (maxi - mini + 1)) + mini;
   return randomNumber;
+};
+
+export const getOperator = (array) => {
+  const index = Math.floor(Math.random() * array.length);
+  const operator = array[index];
+  return operator;
 };
