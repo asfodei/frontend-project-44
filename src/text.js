@@ -16,7 +16,7 @@ export const checkAnswer = (answerUser, answerCorrect, userName, attempt) => {
   if (answerUser === answerCorrect) {
     type('Correct!');
   } else {
-    type(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerCorrect}'. /nLet's try again, ${userName}`);
+    type(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerCorrect}'. \nLet's try again, ${userName}`);
     return false;
   }
   if (attempt === 2) type(`Congratulations, ${userName}!`);
