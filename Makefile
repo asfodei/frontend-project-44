@@ -9,6 +9,8 @@ publish:
 
 lint:
 		npx eslint .
+brain-even:
+		node bin/brain-even.js
 getting:
 		git add .
 		git commit -m .
