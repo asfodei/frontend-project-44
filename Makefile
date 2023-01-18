@@ -11,7 +11,7 @@ lint:
 		npx eslint .
 brain-even:
 		node bin/brain-even.js
-getting:
+output:
 		git add .
 		git commit -m .
 		git push

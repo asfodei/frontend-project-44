@@ -5,7 +5,7 @@ export const type = (str) => {
 };
 
 export const answer = (meaning, data) => {
-  const result = readLineSyns.question(`Question: ${meaning} /nYour answer: `);
+  const result = readLineSyns.question(`Question: ${meaning} \nYour answer: `);
   if (data === 'string') {
     return result;
   }
