@@ -1,5 +1,5 @@
 import starting from '../src/cli.js';
-import { answer, checkAnswer } from '../src/text.js';
+import { answer, checkAnswer } from '../src/index';
 import { numbers } from '../src/math.js';
 
 const gameEven = () => {

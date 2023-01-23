@@ -1,3 +1,10 @@
+export const numbers = (min = 1, max = 100) => {
+  const mini = Math.ceil(min);
+  const maxi = Math.floor(max);
+  const randomNumber = Math.floor(Math.random() * (maxi - mini + 1)) + mini;
+  return randomNumber;
+};
+
 export const base = (x, y, operator) => {
   let result = 0;
   if (operator === '+') result = x + y;
@@ -12,9 +19,15 @@ export const opper1 = (array) => {
   return operator;
 };
 
-export const numbers = (min = 1, max = 100) => {
-  const mini = Math.ceil(min);
-  const maxi = Math.floor(max);
-  const randomNumber = Math.floor(Math.random() * (maxi - mini + 1)) + mini;
-  return randomNumber;
+export const opper2 = (a, b) => {
+  let x = a;
+  let y = b;
+  while (x !== y) {
+    if (x > y) {
+      x -= y;
+    } else {
+      y -= x;
+    }
+  }
+  return x;
 };
