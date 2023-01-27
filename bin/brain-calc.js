@@ -7,8 +7,8 @@ const gameCalc = () => {
 
   for (let i = 0; i < 3; i += 1) {
     const signCalc = opper1(['+', '-', '*']);
-    const x = numbers(2, 16);
-    const y = numbers(2, 16);
+    const x = numbers(2, 10);
+    const y = numbers(2, 10);
     const exampleCalc = `${x} ${signCalc} ${y}`;
     const answerUser = answer(exampleCalc);
     const answerCorrect = base(x, y, signCalc);
