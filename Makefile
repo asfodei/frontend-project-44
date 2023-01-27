@@ -1,5 +1,3 @@
-install:
-		npm ci
 
 brain-games:
 		node bin/brain-games.js
@@ -15,6 +13,8 @@ brain-calc:
 		node bin/brain-calc.js
 brain-gcd:
 		node bin/brain-gcd.js
+brain-progression:
+		node bin-brain-progression.js
 output:
 		git add .
 		git commit -m .
