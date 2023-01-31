@@ -31,3 +31,23 @@ export const opper2 = (a, b) => {
   }
   return x;
 };
+
+export const opper3 = (n, a) => {
+  let result = '';
+  const length = numbers(5, 10);
+  const hidden = numbers(1, length - 1);
+  for (let i = 0; i < length; i += 1) {
+    const current = (n + (a * i));
+    result += (i !== hidden) ? `${current} ` : '.. ';
+  }
+  return result;
+};
+
+export const opper4 = (str) => {
+  const sort = str.split(' ');
+  const indexSearch = sort.indexOf('..');
+  const pastNumber = parseInt(sort[indexSearch - 1], 10);
+  const nextNumber = parseInt(sort[indexSearch + 1], 10);
+  const solve = (pastNumber + nextNumber) / 2;
+  return `${solve}`;
+};
