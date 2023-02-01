@@ -7,6 +7,7 @@ publish:
 
 lint:
 		npx eslint .
+
 brain-even:
 		node bin/brain-even.js
 
@@ -19,9 +20,13 @@ brain-gcd:
 brain-progression:
 		node bin/brain-progression.js
 
+brain-prime:
+		node bin/brain-prime.js
+
 output:
 		git add .
 		git commit -m .
 		git push
+		
 fix:
 		npx eslint . --fix
