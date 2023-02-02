@@ -7,10 +7,12 @@ const gamePrime = () => {
 
   for (let i = 0; i < 3; i += 1) {
     const x = numbers(2, 1000);
+    const y = numbers();
+    const z = y !== x;
     const examplePrime = `${x}`;
     const answerUser = answer(examplePrime, 'string');
-
-    if (!checkAnswer(answerUser, userName, i));
+    const answerCorrect = x % 2 === 0 && x % z === 0 ? 'no' : 'yes';
+    if (!checkAnswer(answerUser, answerCorrect, userName, i));
   }
 };
 
