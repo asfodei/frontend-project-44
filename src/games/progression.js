@@ -15,5 +15,4 @@ const gameProg = () => {
   }
 };
 
-gameProg();
 export default gameProg;

@@ -1,3 +1,3 @@
-import starting from '../src/games/prime';
+import gamePrime from '../src/games/prime.js';
 
-starting();
+gamePrime();

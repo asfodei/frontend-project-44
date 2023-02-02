@@ -1,3 +1,3 @@
-import starting from '../src/games/gcd';
+import gameGcd from '../src/games/gcd.js';
 
-starting();
+gameGcd();

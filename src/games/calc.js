@@ -16,5 +16,4 @@ const gameCalc = () => {
   }
 };
 
-gameCalc();
 export default gameCalc;

@@ -1,3 +1,3 @@
-import starting from '../src/games/progression';
+import gameProg from '../src/games/progression.js';
 
-starting();
+gameProg();

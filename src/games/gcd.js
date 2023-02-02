@@ -15,5 +15,4 @@ const gameGcd = () => {
   }
 };
 
-gameGcd();
 export default gameGcd;
