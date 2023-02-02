@@ -12,7 +12,7 @@ const gamePrime = () => {
     const examplePrime = `${x}`;
     const answerUser = answer(examplePrime, 'string');
     const answerCorrect = x % 2 === 0 && x % z === 0 ? 'no' : 'yes';
-    if (!checkAnswer(answerUser, answerCorrect, userName, i));
+    if (!checkAnswer(answerUser, answerCorrect, userName, i)) break;
   }
 };
 
