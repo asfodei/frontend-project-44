@@ -52,9 +52,9 @@ export const opper4 = (str) => {
   return `${solve}`;
 };
 
-export const opper5 = (num) => {
-  for (let i = 2; i < num; i += 1) {
-    if (num % i === 0) return false;
+export const opper5 = (number) => {
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) return false;
   }
   return true;
 };
