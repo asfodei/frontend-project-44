@@ -12,7 +12,7 @@ export const checkAnswer = (answerUser, answerCorrect, userName, attempt) => {
   if (answerUser === answerCorrect) {
     console.log('Correct!');
   } else {
-    console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerCorrect}'. \nLet's try again, ${userName}`);
+    console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerCorrect}'. \nLet's try again, ${userName}!`);
     return false;
   }
   if (attempt === 2) console.log(`Congratulations, ${userName}!`);
