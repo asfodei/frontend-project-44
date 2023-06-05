@@ -28,5 +28,3 @@ output:
 		git commit -m .
 		git push
 		
-fix:
-		npx eslint . --fix
